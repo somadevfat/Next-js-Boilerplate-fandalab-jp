@@ -1,6 +1,10 @@
 import { createEnv } from '@t3-oss/env-nextjs';
 import * as z from 'zod';
 
+/**
+ * T3 Env を使用して環境変数の定義と検証を行います。
+ * @responsibility アプリケーション全体で使用するサーバーサイド、クライアントサイド、共有の環境変数を一元管理し、バリデーションを行う。
+ */
 export const Env = createEnv({
   server: {
     ARCJET_KEY: z.string().startsWith('ajkey_').optional(),
@@ -21,7 +25,7 @@ export const Env = createEnv({
   shared: {
     NODE_ENV: z.enum(['test', 'development', 'production']).optional(),
   },
-  // You need to destructure all the keys manually
+  /* すべてのキーを手動で分割代入（Destructuring）する必要があります */
   runtimeEnv: {
     ARCJET_KEY: process.env.ARCJET_KEY,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,

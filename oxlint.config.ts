@@ -25,6 +25,7 @@ export default defineConfig({
     'unicorn/filename-case': 'off', // Impossible to enforce consistent filename case due to multiple conventions
 
     // --- JSDoc Rules ---
+    'jsdoc/check-tag-names': ['error', { definedTags: ['responsibility'] }],
     'jsdoc/require-param': 'error',
     'jsdoc/require-param-description': 'error',
     'jsdoc/require-returns': 'error',

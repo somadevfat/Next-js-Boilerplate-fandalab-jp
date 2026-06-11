@@ -23,6 +23,10 @@ const canForwardToBetterStack =
   Boolean(Env.NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN) &&
   Boolean(Env.NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST);
 
+/**
+ * LogTape を使用したアプリケーションロガーの設定を行います。
+ * @responsibility 開発環境と本番環境（Better Stack）に応じたログ出力の設定を行う。
+ */
 await configure({
   sinks: {
     console: getConsoleSink({ formatter: getJsonLinesFormatter() }),

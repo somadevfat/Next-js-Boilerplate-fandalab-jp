@@ -34,8 +34,8 @@ test.describe('Counter', () => {
     });
 
     test('should increment the counter and update the counter correctly', async ({ page }) => {
-      // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
-      // The default value is 0 when there is no `x-e2e-random-id` header
+      /* `x-e2e-random-id` は、エンドツーエンドテストでリクエストを分離するために使用されます */
+      /* `x-e2e-random-id` ヘッダーがない場合のデフォルト値は 0 です */
       const e2eRandomId = faker.number.int({ max: 1_000_000 });
 
       let counter = await page.request.put('/api/counter', {
@@ -50,7 +50,7 @@ test.describe('Counter', () => {
 
       expect(counter.status()).toBe(200);
 
-      // Save the current count
+      /* 現在のカウント数を保存します */
       const { count } = counterJson;
 
       counter = await page.request.put('/api/counter', {

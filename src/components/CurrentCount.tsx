@@ -5,11 +5,16 @@ import { db } from '@/libs/DB';
 import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
 
+/**
+ * 現在のカウント数を表示する React サーバーコンポーネントです。
+ * @responsibility データベースから現在のカウント数を取得し、ローカライズされたテキストとしてレンダリングする。
+ * @returns カウント数を表示する div 要素
+ */
 export const CurrentCount = async () => {
   const t = await getTranslations('CurrentCount');
 
-  // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
-  // The default value is 0 when there is no `x-e2e-random-id` header
+  /* `x-e2e-random-id` は、エンドツーエンドテストでリクエストを分離するために使用されます */
+  /* `x-e2e-random-id` ヘッダーがない場合のデフォルト値は 0 です */
   const headersList = await headers();
   const id = Number(headersList.get('x-e2e-random-id')) || 0;
   const result = await db.query.counterSchema.findFirst({

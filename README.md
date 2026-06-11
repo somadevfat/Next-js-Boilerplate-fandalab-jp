@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next.js 16+, Tailwind CSS 4, and TypeScript.
+# Next.js 16+、Tailwind CSS 4、TypeScript 搭載のボイラープレート兼スターター
 
 <p align="center">
   <a href="https://demo.nextjs-boilerplate.com">
@@ -10,11 +10,11 @@
   </a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with [Neon](https://get.neon.com/BMFYNtx), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.), and more.
+🚀 App Router、Tailwind CSS、TypeScript を採用した Next.js 用ボイラープレート兼スターター ⚡️ 開発者体験（DX）を最優先: Next.js、TypeScript、ESLint、Prettier、Lefthook（Husky の代替）、Lint-Staged、Vitest（Jest の代替）、Testing Library、Playwright、Commitlint、VSCode、Tailwind CSS、[Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) による認証、DrizzleORM（PostgreSQL、SQLite、MySQL 対応）によるデータベース、PGlite によるローカル DB と [Neon](https://get.neon.com/BMFYNtx) による本番 DB、[Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) によるエラー監視、LogTape（Pino.js の代替）とログ管理、Monitoring as Code、Storybook、多言語対応 (i18n)、CodeRabbit による AI コードレビュー、[Arcjet](https://launch.arcjet.com/Q6eLbRE) によるセキュリティ（ボット検知、レート制限、攻撃保護など）などを備えています。
 
-Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
+このプロジェクトをクローンして、独自の Next.js プロジェクトを作成してください。動作する認証システムを含むライブデモを [Next.js Boilerplate](https://demo.nextjs-boilerplate.com) で確認できます。
 
-## Sponsors
+## スポンサー
 
 <table width="100%">
   <tr height="187px">
@@ -23,7 +23,7 @@ Clone this project and use it to create your own Next.js project. You can check 
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/6fb61971-3bf1-4580-98a0-10bd3f1040a2">
           <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
-          <img alt="Clerk – Authentication & User Management for Next.js" src="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
+          <img alt="Clerk – Next.js 用の認証およびユーザー管理" src="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
         </picture>
       </a>
     </td>
@@ -103,100 +103,100 @@ Clone this project and use it to create your own Next.js project. You can check 
   <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@nextjs-boilerplate.com">
-        Add your logo here
+        ここにロゴを追加
       </a>
     </td>
   </tr>
 </table>
 
-### Demo
+### デモ
 
-**Live demo: [Next.js Boilerplate](https://demo.nextjs-boilerplate.com)**
+**ライブデモ: [Next.js Boilerplate](https://demo.nextjs-boilerplate.com)**
 
-| Sign Up | Sign In |
+| 新規登録 | ログイン |
 | --- | --- |
 | [![Next.js Boilerplate SaaS Sign Up](public/assets/images/nextjs-boilerplate-sign-in.png)](https://demo.nextjs-boilerplate.com/sign-up) | [![Next.js Boilerplate SaaS Sign In](public/assets/images/nextjs-boilerplate-sign-in.png)](https://demo.nextjs-boilerplate.com/sign-in) |
 
-### Features
+### 特徴
 
-Developer experience first, extremely flexible code structure and only keep what you need:
+開発者体験（DX）を最優先し、極めて柔軟なコード構造を採用。必要なものだけを残せます：
 
-- ⚡ [Next.js](https://nextjs.org) with App Router support
-- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
-- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
-- 🤖 AI coding agent instructions for Claude Code, Codex, Cursor, OpenCode, Copilot, and more
-- ✅ Strict Mode for TypeScript and React 19
-- 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
-- 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
-- 📦 Type-safe ORM with DrizzleORM, compatible with PostgreSQL, SQLite, and MySQL
-- 💽 Offline and local development database with PGlite
-- ☁️ Remote and production database with [Neon](https://get.neon.com/BMFYNtx)
-- 🌐 Multi-language (i18n) with next-intl and [Crowdin](https://l.crowdin.com/next-js)
-- ♻️ Type-safe environment variables with T3 Env
-- ⌨️ Form handling with React Hook Form
-- 🔴 Validation library with Zod
-- 📏 Linter with Oxlint with Ultracite preset (replacing ESLint)
-- 💖 Code Formatter with Oxfmt (replacing Prettier)
-- 🦊 Husky for Git Hooks (replaced by Lefthook)
-- 🚫 Lint-staged for running linters on Git staged files
-- 🚓 Lint git commit with Commitlint
-- 📓 Write standard compliant commit messages with Commitizen
-- 🔍 Unused files and dependencies detection with Knip
-- 🌍 I18n validation and missing translation detection with i18n-check
-- 🦺 Unit Testing with Vitest and Browser mode (replacing React Testing Library)
-- 🧪 Integration and E2E Testing with Playwright
-- 👷 Run tests on pull request with GitHub Actions
-- 🎉 Storybook for UI development
-- 🐰 AI-powered code reviews with [CodeRabbit](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025)
-- 🚨 Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
-- 🔍 Local development error monitoring with Sentry Spotlight
-- ☂️ Code coverage with Codecov
-- 📝 Logging with LogTape and Log Management with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
-- 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
-- 🔐 Security and bot protection ([Arcjet](https://launch.arcjet.com/Q6eLbRE))
-- 📊 Analytics with PostHog
-- 🎁 Automatic changelog generation with Semantic Release
-- 🔍 Visual regression testing
-- 💡 Absolute Imports using `@` prefix
-- 🗂 VSCode configuration: Debug, Settings, Tasks and Extensions
-- 🤖 SEO metadata, JSON-LD and Open Graph tags
-- 🗺️ Sitemap.xml and robots.txt
-- 👷 Automatic dependency updates with Dependabot
-- ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
-- ⚙️ Bundler Analyzer
-- 🌈 Include a FREE minimalist theme
-- 💯 Maximize lighthouse score
+- ⚡ [Next.js](https://nextjs.org) (App Router 対応)
+- 🔥 型チェック [TypeScript](https://www.typescriptlang.org)
+- 💎 [Tailwind CSS](https://tailwindcss.com) との統合
+- 🤖 Claude Code、Codex、Cursor、OpenCode、Copilot などの AI コーディングエージェント用手順書
+- ✅ TypeScript と React 19 の Strict Mode
+- 🔒 [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) による認証: 新規登録、ログイン、ログアウト、パスワード忘れ、パスワードリセットなど
+- 👤 パスワードレス認証 (Magic Links、多要素認証 (MFA)、ソーシャルログイン (Google, Facebook, Twitter, GitHub, Apple など))、パスキーによるパスワードレスログイン、ユーザーなりすまし
+- 📦 DrizzleORM による型安全な ORM (PostgreSQL、SQLite、MySQL 対応)
+- 💽 PGlite によるオフラインおよびローカル開発用データベース
+- ☁️ [Neon](https://get.neon.com/BMFYNtx) によるリモートおよび本番用データベース
+- 🌐 next-intl と [Crowdin](https://l.crowdin.com/next-js) による多言語対応 (i18n)
+- ♻️ T3 Env による型安全な環境変数
+- ⌨️ React Hook Form によるフォーム処理
+- 🔴 Zod によるバリデーションライブラリ
+- 📏 Oxlint (Ultracite プリセット) によるリンター (ESLint の代替)
+- 💖 Oxfmt によるコードフォーマッター (Prettier の代替)
+- 🦊 Husky に代わる Lefthook による Git Hooks
+- 🚫 Git のステージング済みファイルに対してリンターを実行する Lint-staged
+- 🚓 Commitlint による Git コミットメッセージの検証
+- 📓 Commitizen による標準準拠のコミットメッセージ作成
+- 🔍 Knip による未使用ファイルと依存関係の検出
+- 🌍 i18n-check による i18n の検証と翻訳漏れの検出
+- 🦺 Vitest (ブラウザモード) によるユニットテスト (React Testing Library の代替)
+- 🧪 Playwright による統合および E2E テスト
+- 👷 GitHub Actions によるプルリクエスト時のテスト実行
+- 🎉 UI 開発のための Storybook
+- 🐰 [CodeRabbit](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025) による AI コードレビュー
+- 🚨 [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) によるエラー監視
+- 🔍 Sentry Spotlight によるローカル開発時のエラー監視
+- ☂️ Codecov によるコードカバレッジ
+- 📝 LogTape によるロギングと [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) によるログ管理
+- 🖥️ [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) による Monitoring as Code
+- 🔐 セキュリティとボット保護 ([Arcjet](https://launch.arcjet.com/Q6eLbRE))
+- 📊 PostHog による分析
+- 🎁 Semantic Release による変更履歴（Changelog）の自動生成
+- 🔍 視覚的回帰テスト (Visual Regression Testing)
+- 💡 `@` プレフィックスを使用した絶対パスインポート
+- 🗂 VSCode 設定: デバッグ、設定、タスク、拡張機能
+- 🤖 SEO メタデータ、JSON-LD、Open Graph タグ
+- 🗺️ Sitemap.xml と robots.txt
+- 👷 Dependabot による依存関係の自動更新
+- ⌘ Drizzle Studio によるデータベース操作と Drizzle Kit による CLI 移行ツール
+- ⚙️ バンドルアナライザー (Bundler Analyzer)
+- 🌈 無料のミニマリストテーマ同梱
+- 💯 Lighthouse スコアの最大化
 
-Built-in features from Next.js:
+Next.js の組み込み機能：
 
-- ☕ Minify HTML & CSS
-- 💨 Live reload
-- ✅ Cache busting
+- ☕ HTML & CSS の圧縮
+- 💨 ライブリロード
+- ✅ キャッシュバースト
 
-Optional features (easy to add):
+オプション機能 (追加が容易)：
 
-- 🔑 Multi-tenancy, Role-based access control (RBAC)
-- 🔐 OAuth for Single Sign-On (SSO), Enterprise SSO, SAML, OpenID Connect (OIDC), EASIE
+- 🔑 マルチテナント、ロールベースアクセス制御 (RBAC)
+- 🔐 シングルサインオン (SSO) 用 OAuth、エンタープライズ SSO、SAML、OpenID Connect (OIDC)、EASIE
 - 🔗 Web 3 (Base, MetaMask, Coinbase Wallet, OKX Wallet)
 
-### Philosophy
+### 理念
 
-- Nothing is hidden from you, allowing you to make any necessary adjustments to suit your requirements and preferences.
-- Dependencies are regularly updated on a monthly basis
-- Start for free without upfront costs
-- Easy to customize
-- Minimal code
-- Unstyled template
-- SEO-friendly
-- 🚀 Production-ready
+- 何も隠されていないため、要件や好みに合わせて自由に調整可能です。
+- 依存関係は毎月定期的に更新されます。
+- 初期費用なしで無料で開始できます。
+- カスタマイズが容易です。
+- 最小限のコード。
+- スタイルなしのテンプレート。
+- SEO フレンドリー。
+- 🚀 本番環境対応。
 
-### Requirements
+### 必要条件
 
-- Node.js 24+ and npm
+- Node.js 24 以上および npm
 
-### Getting started
+### はじめに
 
-Run the following command on your local environment:
+ローカル環境で以下のコマンドを実行してください：
 
 ```shell
 git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
@@ -204,246 +204,246 @@ cd my-project-name
 npm install
 ```
 
-For your information, all dependencies are updated every month.
+参考までに、すべての依存関係は毎月更新されます。
 
-Then, you can run the project locally in development mode with live reload by executing:
+次に、ライブリロードが有効な開発モードでプロジェクトをローカルで実行するには：
 
 ```shell
 npm run dev
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a local database using PGlite. No extra setup is required to run the project locally.
+お好みのブラウザで http://localhost:3000 を開き、プロジェクトを確認してください。このプロジェクトは PGlite を使用したローカルデータベースが事前に設定されているため、ローカル実行に追加のセットアップは不要です。
 
-Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, End-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try [Next.js Boilerplate Pro](https://nextjs-boilerplate.com/pro-saas-starter-kit).
+高度な機能（マルチテナント＆チーム、ロール＆権限、Shadcn UI、oRPC によるエンドツーエンドの型安全、Stripe 決済、ライト/ダークモード）が必要な場合は、[Next.js Boilerplate Pro](https://nextjs-boilerplate.com/pro-saas-starter-kit) をお試しください。
 
-Or, need a Self-hosted auth stack (Better Auth)? Try [Next.js Boilerplate Max](https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate)
+または、セルフホスト可能な認証スタック (Better Auth) が必要な場合は、[Next.js Boilerplate Max](https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate) をお試しください。
 
-### Set up authentication
+### 認証の設定
 
-To get started, create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in the Clerk Dashboard. Then copy the `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` values and add them to your `.env.local` file (not tracked by Git):
+まず、[Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) で Clerk アカウントを作成し、Clerk ダッシュボードで新しいアプリケーションを作成します。次に、`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` と `CLERK_SECRET_KEY` の値をコピーして、`.env.local` ファイル（Git では追跡されません）に追加します：
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
-You now have a fully functional authentication system with Next.js, including features such as sign up, sign in, sign out, forgot password, reset password, update profile, update password, update email, delete account, and more.
+これで、新規登録、ログイン、ログアウト、パスワード忘れ、パスワードリセット、プロファイル更新、パスワード更新、メール更新、アカウント削除などの機能を備えた、完全に機能する Next.js 認証システムが整いました。
 
-### Set up remote database
+### リモートデータベースの設定
 
-The project uses DrizzleORM, a type-safe ORM that is compatible with PostgreSQL, SQLite, and MySQL databases. By default, the project is configured to seamlessly work with PostgreSQL, and you have the flexibility to choose any PostgreSQL database provider of your choice.
+プロジェクトは、PostgreSQL、SQLite、MySQL データベースに対応した型安全な ORM である DrizzleORM を使用しています。デフォルトでは PostgreSQL でシームレスに動作するように設定されており、任意の PostgreSQL データベースプロバイダーを選択できます。
 
-When you launch the project locally for the first time, it automatically creates a PostgreSQL database on your local machine. This allows you to work with a PostgreSQL database without Docker or any additional setup.
+プロジェクトを初めてローカルで起動すると、ローカルマシン上に PostgreSQL データベースが自動的に作成されます。これにより、Docker や追加のセットアップなしで PostgreSQL データベースを使用できます。
 
-To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Neon](https://get.neon.com/BMFYNtx), which provides a free PostgreSQL database. This database is compatible and has been tested with Next.js Boilerplate.
+リモートおよび本番用データベースを設定するには、PostgreSQL データベースを作成し、接続文字列を取得する必要があります。推奨されるオプションの一つは、無料の PostgreSQL データベースを提供する [Neon](https://get.neon.com/BMFYNtx) です。このデータベースは互換性があり、Next.js Boilerplate でテスト済みです。
 
-After creating your Neon account, you can get the connection string and copy it to the `DATABASE_URL` variable in your `.env.production` file.
+Neon アカウント作成後、接続文字列を取得し、`.env.production` ファイルの `DATABASE_URL` 変数にコピーしてください。
 
-> :warning: This project works out of the box with any PostgreSQL provider. Neon is mentioned here because it offers a free tier, and the link is an affiliate link. Feel free to use any PostgreSQL provider that fits your needs.
+> :warning: このプロジェクトは、どの PostgreSQL プロバイダーでもそのまま動作します。Neon は無料枠があるためここで言及されており、リンクはアフィリエイトリンクです。ニーズに合った任意の PostgreSQL プロバイダーを自由に使用してください。
 
-#### Create a fresh and empty database
+#### データベースを初期化する場合
 
-If you want to create a fresh and empty database, you just need to remove the folder `local.db` from the root of the project. The next time you run the project, a new database will be created automatically.
+データベースを新しく空の状態にしたい場合は、プロジェクトのルートにある `local.db` フォルダを削除するだけです。次にプロジェクトを実行した際に、新しいデータベースが自動的に作成されます。
 
-### Translation (i18n) setup
+### 翻訳 (i18n) の設定
 
-For translation, the project uses `next-intl` combined with [Crowdin](https://l.crowdin.com/next-js). As a developer, you only need to take care of the English (or another default language) version. Translations for other languages are automatically generated and handled by Crowdin. You can use Crowdin to collaborate with your translation team or translate the messages yourself with the help of machine translation.
+翻訳には、`next-intl` と [Crowdin](https://l.crowdin.com/next-js) を組み合わせて使用しています。開発者は英語（または別のデフォルト言語）バージョンのみを管理すれば済みます。他の言語への翻訳は Crowdin によって自動的に生成・処理されます。Crowdin を使用して翻訳チームと共同作業したり、機械翻訳の助けを借りて自分でメッセージを翻訳したりできます。
 
-To set up translation (i18n), create an account at [Crowdin.com](https://l.crowdin.com/next-js) and create a new project. In the newly created project, you will be able to find the project ID. You will also need to create a new Personal Access Token by going to Account Settings > API. Then, in your GitHub Actions, you need to define the following environment variables: `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`.
+翻訳 (i18n) を設定するには、[Crowdin.com](https://l.crowdin.com/next-js) でアカウントを作成し、新しいプロジェクトを作成します。作成されたプロジェクトでプロジェクト ID を確認できます。また、Account Settings > API で新しいパーソナルアクセストークンを作成する必要があります。次に、GitHub Actions で以下の環境変数を定義します：`CROWDIN_PROJECT_ID` および `CROWDIN_PERSONAL_TOKEN`。
 
-After defining the environment variables in your GitHub Actions, your localization files will be synchronized with Crowdin every time you push a new commit to the `main` branch.
+GitHub Actions で環境変数を定義すると、`main` ブランチに新しいコミットをプッシュするたびに、ローカライズファイルが Crowdin と同期されます。
 
-### Project structure
+### プロジェクト構造
 
 ```shell
 .
-├── README.md                       # README file
-├── .github                         # GitHub folder
-│   ├── actions                     # Reusable actions
-│   └── workflows                   # GitHub Actions workflows
-├── .storybook                      # Storybook folder
-├── .vscode                         # VSCode configuration
-├── migrations                      # Database migrations
-├── public                          # Public assets folder
+├── README.md                       # README ファイル
+├── .github                         # GitHub 関連フォルダ
+│   ├── actions                     # 再利用可能なアクション
+│   └── workflows                   # GitHub Actions ワークフロー
+├── .storybook                      # Storybook 関連フォルダ
+├── .vscode                         # VSCode 設定
+├── migrations                      # データベース移行ファイル
+├── public                          # 公開アセットフォルダ
 ├── src
 │   ├── app                         # Next JS App (App Router)
-│   ├── components                  # React components
-│   ├── libs                        # 3rd party libraries configuration
-│   ├── locales                     # Locales folder (i18n messages)
-│   ├── models                      # Database models
-│   ├── styles                      # Styles folder
-│   ├── templates                   # Templates folder
-│   ├── types                       # Type definitions
-│   ├── utils                       # Utilities folder
-│   └── validations                 # Validation schemas
+│   ├── components                  # React コンポーネント
+│   ├── libs                        # サードパーティライブラリの設定
+│   ├── locales                     # ロケールフォルダ (i18n メッセージ)
+│   ├── models                      # データベースモデル
+│   ├── styles                      # スタイルフォルダ
+│   ├── templates                   # テンプレートフォルダ
+│   ├── types                       # 型定義
+│   ├── utils                       # ユーティリティフォルダ
+│   └── validations                 # バリデーションスキーマ
 ├── tests
-│   ├── e2e                         # E2E tests, also includes Monitoring as Code
-│   └── integration                 # Integration tests
-├── drizzle.config.ts               # Drizzle ORM configuration
-├── eslint.config.mjs               # ESLint configuration
-├── next.config.ts                  # Next JS configuration
-├── package.json                    # NPM dependencies and scripts
-├── playwright.config.ts            # Playwright configuration
-├── tsconfig.json                   # TypeScript configuration
-└── vitest.config.ts                # Vitest configuration
+│   ├── e2e                         # E2E テスト (Monitoring as Code も含む)
+│   └── integration                 # 統合テスト
+├── drizzle.config.ts               # Drizzle ORM 設定
+├── eslint.config.mjs               # ESLint 設定
+├── next.config.ts                  # Next JS 設定
+├── package.json                    # NPM 依存関係とスクリプト
+├── playwright.config.ts            # Playwright 設定
+├── tsconfig.json                   # TypeScript 設定
+└── vitest.config.ts                # Vitest 設定
 ```
 
-### Customization
+### カスタマイズ
 
-You can easily configure Next js Boilerplate by searching the entire project for `FIXME:` to make quick customizations. Here are some of the most important files to customize:
+Next.js Boilerplate は、プロジェクト全体を `FIXME:` で検索することで簡単にカスタマイズできます。以下は、カスタマイズすべき重要なファイルの一部です：
 
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/BaseTemplate.tsx`: default theme
-- `next.config.ts`: Next.js configuration
-- `.env`: default environment variables
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png`, `public/favicon-32x32.png`: ウェブサイトのファビコン
+- `src/utils/AppConfig.ts`: 設定ファイル
+- `src/templates/BaseTemplate.tsx`: デフォルトテーマ
+- `next.config.ts`: Next.js 設定
+- `.env`: デフォルトの環境変数
 
-You have full access to the source code for further customization. The provided code is just an example to help you start your project. The sky's the limit 🚀.
+ソースコードへは完全にアクセス可能なため、さらに自由にカスタマイズできます。提供されているコードはプロジェクトを開始するための例に過ぎません。可能性は無限大です 🚀。
 
-### Change database schema
+### データベーススキーマの変更
 
-To modify the database schema in the project, you can update the schema file located at `./src/models/Schema.ts`. This file defines the structure of your database tables using the Drizzle ORM library.
+プロジェクトのデータベーススキーマを変更するには、`./src/models/Schema.ts` にあるスキーマファイルを更新します。このファイルは、Drizzle ORM ライブラリを使用してデータベーステーブルの構造を定義しています。
 
-After making changes to the schema, generate a migration by running the following command:
+スキーマを変更した後、以下のコマンドを実行してマイグレーションファイルを生成します：
 
 ```shell
 npm run db:generate
 ```
 
-This will create a migration file that reflects your schema changes.
+これにより、スキーマの変更を反映したマイグレーションファイルが作成されます。
 
-After making sure your database is running, you can apply the generated migration using:
+データベースが実行されていることを確認した後、以下のコマンドで生成されたマイグレーションを適用できます：
 
 ```shell
 npm run db:migrate
 ```
 
-There is no need to restart the Next.js server for the changes to take effect.
+変更を反映させるために Next.js サーバーを再起動する必要はありません。
 
-### Commit Message Format
+### コミットメッセージの形式
 
-The project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification, meaning all commit messages must be formatted accordingly. To help you write commit messages, the project provides an interactive CLI that guides you through the commit process. To use it, run the following command:
+プロジェクトは [Conventional Commits](https://www.conventionalcommits.org/) 仕様に従っており、すべてのコミットメッセージはそれに応じてフォーマットする必要があります。コミットメッセージの作成を支援するために、コミットプロセスを案内する対話型 CLI が用意されています。これを使用するには、以下のコマンドを実行します：
 
 ```shell
 npm run commit
 ```
 
-One of the benefits of using Conventional Commits is the ability to automatically generate GitHub releases. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
+Conventional Commits を使用する利点の一つは、GitHub リリースを自動生成できることです。また、リリースに含まれるコミットのタイプに基づいて、次のバージョン番号を自動的に決定することもできます。
 
-#### Commit Types
+#### コミットタイプ
 
-Every commit message follows Conventional Commits and must begin with a type prefix (e.g., `feat: add login page`). The table below lists the available types:
+すべてのコミットメッセージは Conventional Commits に従い、タイプ接頭辞（例：`feat: ログインページを追加`）から開始する必要があります。以下の表に使用可能なタイプを示します：
 
-| Type | Description |
+| タイプ | 説明 |
 | --- | --- |
-| `feat` | New feature or functionality |
-| `fix` | Bug fix |
-| `docs` | Documentation only |
-| `style` | Code formatting without logic changes |
-| `refactor` | Code restructuring without behavior changes |
-| `perf` | Performance improvement |
-| `test` | Adding or updating tests |
-| `build` | Build system |
-| `ci` | CI configuration and scripts |
-| `chore` | Maintenance tasks (dependencies, config) |
-| `revert` | Reverts a previous commit |
+| `feat` | 新機能や機能追加 |
+| `fix` | バグ修正 |
+| `docs` | ドキュメントのみの変更 |
+| `style` | ロジックに変更のないコードの整形 |
+| `refactor` | 振る舞いに変更のないコードの再構築 |
+| `perf` | パフォーマンスの向上 |
+| `test` | テストの追加や更新 |
+| `build` | ビルドシステム |
+| `ci` | CI 設定とスクリプト |
+| `chore` | メンテナンス作業 (依存関係、設定など) |
+| `revert` | 以前のコミットの取り消し |
 
-### CodeRabbit AI Code Reviews
+### CodeRabbit AI コードレビュー
 
-The project uses [CodeRabbit](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025), an AI-powered code reviewer. CodeRabbit monitors your repository and automatically provides intelligent code reviews on all new pull requests using its powerful AI engine.
+プロジェクトでは、AI 搭載のコードレビューツールである [CodeRabbit](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025) を使用しています。CodeRabbit はリポジトリを監視し、強力な AI エンジンを使用してすべての新しいプルリクエストに対してインテリジェントなコードレビューを自動的に提供します。
 
-Setting up CodeRabbit is simple, visit [coderabbit.ai](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025), sign in with your GitHub account, and add your repository from the dashboard. That's it!
+セットアップは簡単です。[coderabbit.ai](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025) にアクセスし、GitHub アカウントでサインインして、ダッシュボードからリポジトリを追加するだけです。
 
-### Testing
+### テスト
 
-All unit tests are located alongside the source code in the same directory, making them easier to find. The unit test files follow this format: `*.test.ts` or `*.test.tsx`. The project uses Vitest and React Testing Library for unit testing. You can run the tests with the following command:
+すべてのユニットテストは、見つけやすいようにソースコードと同じディレクトリに配置されています。ユニットテストファイルは `*.test.ts` または `*.test.tsx` という形式です。プロジェクトでは、ユニットテストに Vitest と React Testing Library を使用しています。以下のコマンドでテストを実行できます：
 
 ```shell
 npm run test
 ```
 
-### Integration & E2E Testing
+### 統合および E2E テスト
 
-The project uses Playwright for integration and end-to-end (E2E) testing. Integration test files use the `*.integ.ts` extension, while E2E test files use the `*.e2e.ts` extension. You can run the tests with the following commands:
+プロジェクトでは、統合およびエンドツーエンド (E2E) テストに Playwright を使用しています。統合テストファイルは `*.integ.ts` 拡張子を使用し、E2E テストファイルは `*.e2e.ts` 拡張子を使用します。以下のコマンドでテストを実行できます：
 
 ```shell
-npx playwright install # Only for the first time in a new environment
+npx playwright install # 新しい環境で初回のみ実行
 npm run test:e2e
 ```
 
 ### Storybook
 
-Storybook is configured for UI component development and testing. The project uses Storybook with Next.js and Vite integration, including accessibility testing and documentation features.
+Storybook は、UI コンポーネントの開発とテスト用に設定されています。プロジェクトは Next.js および Vite と統合された Storybook を使用しており、アクセシビリティテストやドキュメント機能も含まれています。
 
-Stories are located alongside your components in the `src` directory and follow the pattern `*.stories.ts` or `*.stories.tsx`.
+Story は `src` ディレクトリ内のコンポーネントと同じ場所に配置され、`*.stories.ts` または `*.stories.tsx` というパターンに従います。
 
-You can run Storybook in development mode with:
+開発モードで Storybook を実行するには：
 
 ```shell
 npm run storybook
 ```
 
-This will start Storybook on http://localhost:6006 where you can view and interact with your UI components in isolation.
+これにより、http://localhost:6006 で Storybook が起動し、UI コンポーネントを個別に表示・操作できます。
 
-To run Storybook tests in headless mode, you can use the following command:
+ヘッドレスモードで Storybook テストを実行するには、以下のコマンドを使用します：
 
 ```shell
 npm run storybook:test
 ```
 
-### Local Production Build
+### ローカルでの本番用ビルド
 
-Generate an optimized production build locally using a temporary in-memory Postgres database:
+一時的なインメモリ Postgres データベースを使用して、最適化された本番用ビルドをローカルで生成します：
 
 ```shell
 npm run build-local
 ```
 
-This command:
+このコマンドは以下の処理を行います：
 
-- Starts a temporary in-memory Database server
-- Runs database migrations with Drizzle Kit
-- Builds the Next.js app for production
-- Shuts down the temporary DB when the build finishes
+- 一時的なインメモリデータベースサーバーを起動
+- Drizzle Kit によるデータベースマイグレーションの実行
+- 本番用 Next.js アプリのビルド
+- ビルド完了後、一時的な DB をシャットダウン
 
-Notes:
+注意：
 
-- By default, it uses a local database, but you can also use `npm run build` with a remote database.
-- This only creates the build, it doesn't start the server. To run the build locally, use `npm run start`.
+- デフォルトではローカルデータベースを使用しますが、リモートデータベースを使用して `npm run build` を実行することもできます。
+- これはビルドを作成するだけで、サーバーを起動するわけではありません。ビルドをローカルで実行するには、`npm run start` を使用してください。
 
-### Deploy to production
+### 本番環境へのデプロイ
 
-During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables. You can use any PostgreSQL provider, but we recommend using [Neon](https://get.neon.com/BMFYNtx), which offers a free tier and is compatible with Next.js Boilerplate.
+ビルドプロセス中にデータベースマイグレーションが自動的に実行されるため、手動で実行する必要はありません。ただし、環境変数に `DATABASE_URL` を定義する必要があります。任意の PostgreSQL プロバイダーを使用できますが、無料枠があり Next.js Boilerplate と互換性のある [Neon](https://get.neon.com/BMFYNtx) の使用を推奨します。
 
-Then, you can generate a production build with:
+次に、以下のコマンドで本番ビルドを生成できます：
 
 ```shell
 $ npm run build
 ```
 
-It generates an optimized production build of the boilerplate. To test the generated build, run:
+これにより、ボイラープレートの最適化された本番用ビルドが生成されます。生成されたビルドをテストするには、以下を実行します：
 
 ```shell
 $ npm run start
 ```
 
-You also need to defined the environment variables `CLERK_SECRET_KEY` using your own key.
+また、独自のキーを使用して環境変数 `CLERK_SECRET_KEY` を定義する必要があります。
 
-This command starts a local server using the production build. You can now open http://localhost:3000 in your preferred browser to see the result.
+このコマンドは、本番用ビルドを使用してローカルサーバーを起動します。ブラウザで http://localhost:3000 を開き、結果を確認できます。
 
-### Error Monitoring
+### エラー監視
 
-The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors.
+プロジェクトは、エラー監視に [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) を使用しています。
 
-#### Local development with Sentry and Spotlight
+#### Sentry と Spotlight を使用したローカル開発
 
-In the development environment, no additional setup is required: Next.js Boilerplate comes pre-configured with Sentry and Spotlight (Sentry for Development). All errors are automatically captured by your local Spotlight instance, enabling testing without sending data to Sentry Cloud.
+開発環境では追加のセットアップは不要です。Next.js Boilerplate には Sentry と Spotlight（開発用 Sentry）が事前に設定されています。すべてのエラーはローカルの Spotlight インスタンスによって自動的にキャプチャされ、Sentry Cloud にデータを送信することなくテストが可能です。
 
-You can inspect captured events, view stack traces, and analyze errors in the Spotlight UI at `http://localhost:8969`.
+キャプチャされたイベントの調査、スタックトレースの表示、エラーの分析は、Spotlight UI (`http://localhost:8969`) で行えます。
 
-#### Production setup with Sentry
+#### Sentry を使用した本番環境のセットアップ
 
-For production environment, you'll need to create a [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) account and a new project. Then, in `.env.production`, you need to update the following environment variables:
+本番環境では、[Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) アカウントと新しいプロジェクトを作成する必要があります。次に、`.env.production` で以下の環境変数を更新します：
 
 ```shell
 NEXT_PUBLIC_SENTRY_DSN=
@@ -451,96 +451,96 @@ SENTRY_ORGANIZATION=
 SENTRY_PROJECT=
 ```
 
-You also need to create a environment variable `SENTRY_AUTH_TOKEN` in your hosting provider's dashboard.
+また、ホスティングプロバイダーのダッシュボードで環境変数 `SENTRY_AUTH_TOKEN` を作成する必要があります。
 
-### Code coverage
+### コードカバレッジ
 
-Next.js Boilerplate relies on [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) for code coverage reporting solution. To enable Codecov, create a Codecov account and connect it to your GitHub account. Your repositories should appear on your Codecov dashboard. Select the desired repository and copy the token. In GitHub Actions, define the `CODECOV_TOKEN` environment variable and paste the token.
+Next.js Boilerplate は、コードカバレッジのレポートソリューションとして [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) を採用しています。Codecov を有効にするには、Codecov アカウントを作成し GitHub アカウントと連携させます。Codecov ダッシュボードにリポジトリが表示されるので、対象のリポジトリを選択してトークンをコピーします。GitHub Actions で `CODECOV_TOKEN` 環境変数を定義し、トークンを貼り付けます。
 
-Make sure to create `CODECOV_TOKEN` as a GitHub Actions secret, do not paste it directly into your source code.
+`CODECOV_TOKEN` は必ず GitHub Actions のシークレットとして作成し、ソースコードに直接貼り付けないでください。
 
-### Logging
+### ロギング
 
-The project uses LogTape for logging. In the development environment, logs are displayed in the console by default.
+プロジェクトではロギングに LogTape を使用しています。開発環境では、ログはデフォルトでコンソールに表示されます。
 
-For production, the project is already integrated with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) to manage and query your logs using SQL. To use Better Stack, you need to create a [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) account and create a new source: go to your Better Stack Logs Dashboard > Sources > Connect source. Then, you need to give a name to your source and select Node.js as the platform.
+本番環境では、SQL を使用してログを管理・照会できる [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) と既に統合されています。Better Stack を使用するには、[Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) アカウントを作成し、新しいソースを作成します（Better Stack Logs Dashboard > Sources > Connect source）。ソースに名前を付け、プラットフォームとして Node.js を選択します。
 
-After creating the source, you will be able to view and copy your source token. In your environment variables, paste the token into the `NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN` variable. You'll also need to define the `NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST` variable, which can be found in the same place as the source token.
+ソース作成後、ソーストークンを表示・コピーできます。環境変数の `NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN` 変数にトークンを貼り付けてください。また、同じ場所で確認できる `NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST` 変数も定義する必要があります。
 
-Now, all logs will automatically be sent to and ingested by Better Stack.
+これで、すべてのログが自動的に Better Stack に送信され、取り込まれるようになります。
 
-### Checkly monitoring
+### Checkly による監視
 
-The project uses [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) to ensure that your production environment is always up and running. At regular intervals, Checkly runs the tests ending with `*.check.e2e.ts` extension and notifies you if any of the tests fail. Additionally, you have the flexibility to execute tests from multiple locations to ensure that your application is available worldwide.
+プロジェクトは [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) を使用して、本番環境が常に稼働していることを確認します。Checkly は定期的に `*.check.e2e.ts` 拡張子で終わるテストを実行し、テストが失敗した場合には通知を行います。さらに、複数の場所からテストを実行して、アプリケーションが世界中で利用可能であることを確認できる柔軟性も備えています。
 
-To use Checkly, you must first create an account on [their website](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate). After creating an account, generate a new API key in the Checkly Dashboard and set the `CHECKLY_API_KEY` environment variable in GitHub Actions. Additionally, you will need to define the `CHECKLY_ACCOUNT_ID`, which can also be found in your Checkly Dashboard under User Settings > General.
+Checkly を使用するには、まず [公式ウェブサイト](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) でアカウントを作成してください。アカウント作成後、Checkly ダッシュボードで新しい API キーを生成し、GitHub Actions で `CHECKLY_API_KEY` 環境変数を設定します。また、Checkly ダッシュボードの User Settings > General で確認できる `CHECKLY_ACCOUNT_ID` も定義する必要があります。
 
-To complete the setup, update the `checkly.config.ts` file with your own email address and production URL.
+セットアップを完了するには、`checkly.config.ts` ファイルを自身のメールアドレスと本番用 URL で更新してください。
 
-### Arcjet security and bot protection
+### Arcjet によるセキュリティとボット保護
 
-The project uses [Arcjet](https://launch.arcjet.com/Q6eLbRE), a security as code product that includes several features that can be used individually or combined to provide defense in depth for your site.
+プロジェクトでは、サイトに多層的な防御を提供するために個別または組み合わせて使用できる複数の機能を備えた、セキュリティ・アズ・コード製品である [Arcjet](https://launch.arcjet.com/Q6eLbRE) を使用しています。
 
-To set up Arcjet, [create a free account](https://launch.arcjet.com/Q6eLbRE) and get your API key. Then add it to the `ARCJET_KEY` environment variable.
+Arcjet を設定するには、[無料アカウントを作成](https://launch.arcjet.com/Q6eLbRE)して API キーを取得してください。次に、それを `ARCJET_KEY` 環境変数に追加します。
 
-Arcjet is configured with two main features: bot detection and the Arcjet Shield WAF:
+Arcjet は、ボット検知と Arcjet Shield WAF の 2 つの主要機能で構成されています：
 
-- [Bot detection](https://docs.arcjet.com/bot-protection/concepts) is configured to allow search engines, preview link generators e.g. Slack and Twitter previews, and to allow common uptime monitoring services. All other bots, such as scrapers and AI crawlers, will be blocked. You can [configure additional bot types](https://docs.arcjet.com/bot-protection/identifying-bots) to allow or block.
-- [Arcjet Shield WAF](https://docs.arcjet.com/shield/concepts) will detect and block common attacks such as SQL injection, cross-site scripting, and other OWASP Top 10 vulnerabilities.
+- [ボット検知](https://docs.arcjet.com/bot-protection/concepts)は、検索エンジン、Slack や Twitter などのプレビューリンク生成ツール、一般的なアップタイム監視サービスを許可するように設定されています。スクレイパーや AI クローラーなどのその他のボットはすべてブロックされます。許可またはブロックする[追加のボットタイプを設定](https://docs.arcjet.com/bot-protection/identifying-bots)することも可能です。
+- [Arcjet Shield WAF](https://docs.arcjet.com/shield/concepts) は、SQL インジェクション、クロスサイトスクリプティング、その他の OWASP Top 10 の脆弱性などの一般的な攻撃を検知してブロックします。
 
-Arcjet is configured with a central client at `src/libs/Arcjet.ts` that includes the Shield WAF rules. Additional rules are applied when Arcjet is called in `proxy.ts`.
+Arcjet は `src/libs/Arcjet.ts` にあるセントラルクライアントで Shield WAF ルールを含むように設定されています。`proxy.ts` で Arcjet が呼び出される際に追加のルールが適用されます。
 
-### Useful commands
+### 便利なコマンド
 
-### Code Quality and Validation
+### コード品質と検証
 
-The project includes several commands to ensure code quality and consistency. You can run:
+プロジェクトには、コードの品質と一貫性を確保するための複数のコマンドが含まれています：
 
-- `npm run lint` to check for linting errors
-- `npm run lint:fix` to automatically fix fixable issues from the linter
-- `npm run check:types` to verify type safety across the entire project
-- `npm run check:deps` help identify unused dependencies and files
-- `npm run check:i18n` ensures all translations are complete and properly formatted
+- `npm run lint`: リンターによるエラーチェック
+- `npm run lint:fix`: リンターによる自動修正
+- `npm run check:types`: プロジェクト全体の型安全性の検証
+- `npm run check:deps`: 未使用の依存関係とファイルの特定を支援
+- `npm run check:i18n`: すべての翻訳が完了し、正しくフォーマットされていることを確認
 
-#### Bundle Analyzer
+#### バンドルアナライザー
 
-Next.js Boilerplate includes a built-in bundle analyzer. It can be used to analyze the size of your JavaScript bundles. To begin, run the following command:
+Next.js Boilerplate にはバンドルアナライザーが組み込まれています。JavaScript バンドルのサイズを分析するために使用できます。開始するには、以下のコマンドを実行してください：
 
 ```shell
 npm run build-stats
 ```
 
-By running the command, it'll automatically open a new browser window with the results.
+コマンドを実行すると、自動的にブラウザで結果が表示されます。
 
-#### Database Studio
+#### データベーススタジオ
 
-The project is already configured with Drizzle Studio to explore the database. You can run the following command to open the database studio:
+プロジェクトは Drizzle Studio を使用してデータベースを操作できるように設定されています。以下のコマンドを実行してデータベーススタジオを開くことができます：
 
 ```shell
 npm run db:studio
 ```
 
-Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
+その後、お好みのブラウザで https://local.drizzle.studio を開き、データベースを操作できます。
 
-### VSCode information (optional)
+### VSCode 情報 (オプション)
 
-If you are VSCode user, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
+VSCode を使用している場合は、`.vscode/extension.json` で提案されている拡張機能をインストールすることで、より良い統合環境を得られます。スターターコードには、VSCode とのシームレスな統合のための設定が含まれています。フロントエンドとバックエンドのデバッグ体験のためのデバッグ設定も提供されています。
 
-With the plugins installed in your VSCode, ESLint and Prettier can automatically fix the code and display errors. The same applies to testing: you can install the VSCode Vitest extension to automatically run your tests, and it also shows the code coverage in context.
+VSCode にプラグインをインストールすると、ESLint と Prettier が自動的にコードを修正し、エラーを表示します。テストについても同様で、VSCode Vitest 拡張機能をインストールすることで、テストを自動的に実行し、コンテキスト内でコードカバレッジを表示できます。
 
-Pro tips: if you need a project wide-type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
+プロのヒント：TypeScript によるプロジェクト全体の型チェックが必要な場合は、Mac では <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> でビルドを実行できます。
 
-### Contributions
+### 貢献
 
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have any questions or find a bug. Totally open to suggestions and improvements.
+どなたでもこのプロジェクトへの貢献を歓迎します。質問がある場合やバグを見つけた場合は、お気軽に Issue を作成してください。提案や改善も大歓迎です。
 
-### License
+### ライセンス
 
-Licensed under the MIT License, Copyright © 2026
+MIT ライセンスの下でライセンスされています。Copyright © 2026
 
-See [LICENSE](LICENSE) for more information.
+詳細については [LICENSE](LICENSE) をご覧ください。
 
-## Sponsors
+## スポンサー
 
 <table width="100%">
   <tr height="187px">
@@ -549,7 +549,7 @@ See [LICENSE](LICENSE) for more information.
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/6fb61971-3bf1-4580-98a0-10bd3f1040a2">
           <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
-          <img alt="Clerk – Authentication & User Management for Next.js" src="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
+          <img alt="Clerk – Next.js 用の認証およびユーザー管理" src="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
         </picture>
       </a>
     </td>
@@ -629,7 +629,7 @@ See [LICENSE](LICENSE) for more information.
   <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@nextjs-boilerplate.com">
-        Add your logo here
+        ここにロゴを追加
       </a>
     </td>
   </tr>
@@ -639,6 +639,6 @@ See [LICENSE](LICENSE) for more information.
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-Looking for a custom boilerplate to kick off your project? I'd be glad to discuss how I can help you build one. Feel free to reach out anytime at contact@nextjs-boilerplate.com!
+プロジェクトを開始するためのカスタムボイラープレートをお探しですか？構築のお手伝いができるよう、ぜひお話しさせてください。いつでも contact@nextjs-boilerplate.com までお気軽にご連絡ください！
 
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)
+[![Next JS Boilerplate をスポンサーする](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)

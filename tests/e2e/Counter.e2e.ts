@@ -22,8 +22,8 @@ test.describe('Counter', () => {
     });
 
     test('should increment the counter and validate the count', async ({ page }) => {
-      // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
-      // The default value is 0 when there is no `x-e2e-random-id` header
+      /* `x-e2e-random-id` は、エンドツーエンドテストでリクエストを分離するために使用されます */
+      /* `x-e2e-random-id` ヘッダーがない場合のデフォルト値は 0 です */
       const e2eRandomId = faker.number.int({ max: 1_000_000 });
       await page.setExtraHTTPHeaders({
         'x-e2e-random-id': e2eRandomId.toString(),

@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const routes = ['', '/about', '/counter', '/portfolio'];
 
-  // Generate portfolio detail pages
+  /* ポートフォリオの詳細ページを生成します */
   const portfolioRoutes = Array.from({ length: 6 }, (_, i) => `/portfolio/${i}`);
   const allRoutes = [...routes, ...portfolioRoutes];
 

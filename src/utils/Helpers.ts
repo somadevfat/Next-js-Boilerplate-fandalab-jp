@@ -2,8 +2,9 @@ import { Env } from '@/libs/Env';
 import { routing } from '@/libs/I18nRouting';
 
 /**
- * Resolves the public base URL of the application.
- * @returns The configured public app URL or the local development URL.
+ * アプリケーションの公開ベース URL を解決します。
+ * @responsibility 設定された公開アプリ URL またはローカル開発用 URL を返す。
+ * @returns 設定済みの公開アプリ URL またはローカル開発用 URL
  */
 export const getBaseUrl = () => {
   if (Env.NEXT_PUBLIC_APP_URL) {
@@ -14,10 +15,11 @@ export const getBaseUrl = () => {
 };
 
 /**
- * Builds a locale-aware path by prefixing non-default locales.
- * @param url The base application-relative path starting with a slash.
- * @param locale The active locale identifier.
- * @returns The localized path, prefixed when the locale is not the default locale.
+ * デフォルト以外のロケールにプレフィックスを付与して、ロケールを考慮したパスを構築します。
+ * @responsibility 現在のロケールに基づいて、適切な言語プレフィックスを持つパスを生成する。
+ * @param url スラッシュで始まる基本の相対パス
+ * @param locale アクティブなロケール識別子
+ * @returns ローカライズされたパス
  */
 export const getI18nPath = (url: string, locale: string) => {
   if (locale === routing.defaultLocale) {

@@ -15,7 +15,7 @@ export default async function AuthLayout(props: {
   return (
     <ClerkProvider
       appearance={{
-        cssLayerName: 'clerk', // Ensure Clerk is compatible with Tailwind CSS v4
+        cssLayerName: 'clerk' /* Clerk が Tailwind CSS v4 と互換性があることを確認します */,
       }}
       localization={clerkLocale}
       signInUrl="/sign-in"

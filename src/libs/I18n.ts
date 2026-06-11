@@ -2,24 +2,34 @@ import { hasLocale } from 'next-intl';
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './I18nRouting';
 
-// NextJS Boilerplate uses Crowdin as the localization software.
-// As a developer, you only need to take care of the English (or another default language) version.
-// Other languages are automatically generated and handled by Crowdin.
+/*
+ * NextJS Boilerplate はローカライゼーションソフトウェアとして Crowdin を使用しています。
+ * 開発者は英語（または別のデフォルト言語）バージョンのみを管理すれば済みます。
+ * 他の言語は Crowdin によって自動的に生成および処理されます。
+ */
 
-// The localisation files are synced with Crowdin using GitHub Actions.
-// By default, there are 3 ways to sync the message files:
-// 1. Automatically sync on push to the `main` branch
-// 2. Run manually the workflow on GitHub Actions
-// 3. Every 24 hours at 5am, the workflow will run automatically
+/*
+ * ローカライズファイルは GitHub Actions を使用して Crowdin と同期されます。
+ * デフォルトでは、メッセージファイルを同期する方法が3つあります：
+ * 1. `main` ブランチへのプッシュ時に自動的に同期
+ * 2. GitHub Actions で手動でワークフローを実行
+ * 3. 毎日午前5時（UTC）にワークフローが自動的に実行
+ */
 
-export default getRequestConfig(async ({ requestLocale }) => {
-  // Typically corresponds to the `[locale]` segment
-  const requested = await requestLocale;
+/**
+ * i18n のリクエスト設定を生成するデフォルト関数です。
+ * @responsibility リクエストされたロケールに基づいて、適切な翻訳メッセージと設定をロードする。
+ * @param options リクエストオプション（requestLocale を含む）
+ * @returns ロケールとメッセージを含む設定オブジェクト
+ */
+export default getRequestConfig(async (options) => {
+  /* 通常、`[locale]` セグメントに対応します */
+  const requested = await options.requestLocale;
   const locale = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
 
   return {
     locale,
-    // oxlint-disable-next-line unicorn/no-await-expression-member
+    /* oxlint-disable-next-line unicorn/no-await-expression-member */
     messages: (await import(`../locales/${locale}.json`)).default,
   };
 });
